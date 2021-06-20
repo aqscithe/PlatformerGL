@@ -1,0 +1,79 @@
+m platform 8.5 -4.0 -2.5/0.0 0.0 0.0/1.0 1.0 1.0 2
+t blue_stone.jpg
+co cube 0.0 -5.0 0.0/1.0 1.0 1.0
+s shader.vert shader.frag
+s collider.vert collider.frag
+
+m platform 5.5 -3.0 -2.5/0.0 0.0 0.0/1.0 1.0 1.0 2
+t cobble.jpg
+co cube 0.0 -5.0 0.0/1.0 1.0 1.0
+s shader.vert shader.frag
+s collider.vert collider.frag
+
+m platform 2.5 -4.0 -2.5/0.0 0.0 0.0/1.0 1.0 1.0 2
+t emerald_stone.jpg
+co cube 0.0 -5.0 0.0/1.0 1.0 1.0
+s shader.vert shader.frag
+s collider.vert collider.frag
+
+m platform -0.5 -5.0 -2.5/0.0 0.0 0.0/1.0 1.0 1.0 2
+t sand.jpg
+co cube 0.0 -5.0 0.0/1.0 1.0 1.0
+s shader.vert shader.frag
+s collider.vert collider.frag
+
+m platform 9 -3.0 0.0/0.0 0.0 0.0/1.0 1.0 1.0 2
+t shingles.jpg
+co cube 0.0 -5.0 0.0/1.0 1.0 1.0
+s shader.vert shader.frag
+s collider.vert collider.frag
+
+m platform 6 -4.0 0.0/0.0 0.0 0.0/1.0 1.0 1.0 2
+t bumpy_ice.png
+co cube 0.0 -5.0 0.0/1.0 1.0 1.0
+s shader.vert shader.frag
+s collider.vert collider.frag
+
+m platform 3 -5.0 0.0/0.0 0.0 0.0/1.0 1.0 1.0 2
+t lava_tile.jpg
+co cube 0.0 -5.0 0.0/1.0 1.0 1.0
+s shader.vert shader.frag
+s collider.vert collider.frag
+
+m platform 0.0 -4.0 0.0/0.0 0.0 0.0/1.0 1.0 1.0 2
+t None
+co cube 0.0 -5.0 0.0/1.0 1.0 1.0
+s shader.vert shader.frag
+s collider.vert collider.frag
+
+m darkmonk 0.0 0.0 0.0/0.0 0.0 0.0/1.0 1.0 1.0 1
+t None
+co sphere 0.0 0.0 0.0/1.0 1.0 1.0
+s shader.vert shader.frag
+s collider.vert collider.frag
+
+
+m ahsoka 0.0 0.0 0.3/0.0 0.0 0.0/0.5 0.5 0.5 0
+t None
+co sphere 0.0 0.0 0.0/1.0 1.0 1.0
+s shader.vert shader.frag
+s collider.vert collider.frag
+
+c 0.175 0.474 2.5/0.0 0.0/60.0 0.01 1000.0/0.002 1.0
+
+ld 0/0.4 0.4 0.4/0.4 0.4 0.1/0.2 0.4 0.5/-1.0 0.0 0.0
+ld 0/1.0 0.8 0.2/0.1 0.4 0.7/1.0 0.4 0.5/1.0 0.2 0.8
+# enabled ambient diffuse specular direction
+
+lp 1/0.2 1.0 1.0/0.1 0.4 0.7/0.8 0.4 0.5/-1.1 -2.12 0.35/0.68 0.035 0.603
+lp 1/1.0 0.0 1.0/0.0 0.2 0.9/1.0 0.4 0.5/3.0 0.3 0.35/0.68 0.035 0.603
+lp 1/1.0 1.0 0.4/0.1 0.4 0.7/1.0 0.6 0.5/7.47 -1.83 -1.74/0.68 0.035 0.603
+# enabled ambient diffuse specular position constant linear quadratic
+
+ls 1/1.0 1.0 1.0/0.1 0.4 0.7/1.0 0.4 0.5/3.0 0.3 0.35/-1.0 -21 0.0/0.0 1.0 0.0/6.0
+# enabled ambient diffuse specular position direction constant linear quadratic cutoff
+
+0 5
+1 1
+2 0
+

@@ -1,0 +1,140 @@
+# Changelog
+PROJET PLATFORMERGL - LEJA
+
+## [0.0.1] - 2021-05-12
+### Added
+
+### Changed
+- adjusted game options [@Leon]
+- release project settings [@Leon]
+- readme update
+
+### Fixed
+- correct tag displays in editor [@Leon]
+
+## [0.0.1] - 2021-05-11
+### Added
+- necessary const variables and inlines [@Leon]
+
+### Changed
+- fixed delta time [@Jarod]
+- no more static casts within log class [@Leon]
+- segment-box collision [@Jarod]
+
+### Fixed
+- code clean up [@Leon]
+
+## [0.0.1] - 2021-05-10
+### Added
+- security for loading saved scenes [@Jarod]
+- custom texture for 1 texture models [@Leon]
+
+### Fixed
+- textures now loaded once [@Leon]
+- corrected time leak [@Jarod]
+- objs loaded once [@Leon]
+
+## [0.0.1] - 2021-05-09
+### Added 
+- platform class [@Leon]
+- gameojbect pointers sent to player update [@Leon]
+- imgui menu [@Jarod]
+- can save and load scenes [@Jarod]
+
+## [0.0.1] - 2021-05-08
+### Added
+- applying colliders within mesh constructor [@Leon]
+- toggle collider visibility [@Leon]
+
+### Changed
+- collider now drawn separately  from model [@Leon]
+- wireframe look improved [@Leon]
+- gfx and shader collider now separate [@Leon]
+
+### Fixed
+- bug where rendered image shakes when moving [@Leon]
+
+## [0.0.1] - 2021-05-07
+### Added
+- sphere-sphere collision [@Jarod]
+- camera follows player [@Leon]
+- player can jump on platforms [@Jarod]
+
+
+### Changed
+- removed segment from primitive class [@Jarod]
+
+### Fixed
+- leaks [@Jarod]
+
+
+## [0.0.1] - 2021-05-06
+### Added
+- rigidbody and transform section in imgui [@Leon]
+- friction and air resistance [@Leon]
+
+### Changed
+- gameobject organization [@Leon]
+
+### Fixed
+- jump calculations [@Leon]
+- bunny hopping [@Leon]
+
+
+## [0.0.1] - 2021-05-05
+### Added
+- time singleton [@Jarod]
+- jumps [@Leon]
+
+
+## [0.0.1] - 2021-05-04
+### Added
+- rigidbody [@Leon][@Jarod]
+- segment-box collision [@Jarod]
+- player inputs [@Leon]
+
+
+## [0.0.1] - 2021-05-01
+### Added
+- gameobjects being added with transform [@Leon]
+
+### Changed
+- scene uses gameobjects instead of models [@Leon]
+
+
+## [0.0.1] - 2021-04-30
+### Added
+- set up game object hierarchy [@Leon]
+- tags [@Leon]
+
+
+## [0.0.1] - 2021-04-29
+### Added
+- sphere primitive [@Jarod]
+- model [@Leon]
+- scene and game objects [@Leon]
+- texture [@Leon]
+
+### Changed
+- shader stored in model instead of scene [@Leon]
+
+
+## [0.0.1] - 2021-04-28
+### Added
+- shaders [@Leon][@Jarod]
+- meshes [@Leon]
+- box primitive [@Jarod]
+- matrices [@Leon][@Jarod]
+- first triangle [@Leon][@Jarod]
+- logs [@Leon]
+
+
+## [0.0.1] - 2021-04-27
+### Added
+- window [@Leon][@Jarod]
+- glad [@Leon][@Jarod]
+
+
+## [0.0.1] - 2021-04-23
+### Added
+- empty project [@Leon][@Jarod]

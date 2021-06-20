@@ -1,0 +1,40 @@
+m platform 1.5 -4.0 0.0/0.0 0.0 0.0/1.0 1.0 1.0 2
+co cube 0.0 -5.0 0.0/1.0 1.0 1.0
+s shader.vert shader.frag
+s collider.vert collider.frag
+
+m platform 0.0 -4.0 0.0/0.0 0.0 0.0/1.0 1.0 1.0 2
+co cube 0.0 -5.0 0.0/1.0 1.0 1.0
+s shader.vert shader.frag
+s collider.vert collider.frag
+
+m platform 0.0 -5.0 0.0/0.0 0.0 0.0/1.0 1.0 1.0 2
+co cube 0.0 -5.0 0.0/1.0 1.0 1.0
+s shader.vert shader.frag
+s collider.vert collider.frag
+
+m platform 0.0 -5.0 0.0/0.0 0.0 0.0/1.0 1.0 1.0 2
+co cube 0.0 -5.0 0.0/1.0 1.0 1.0
+s shader.vert shader.frag
+s collider.vert collider.frag
+
+m darkmonk 0.0 0.0 0.0/0.0 0.0 0.0/1.0 1.0 1.0 1
+co sphere 0.0 0.0 0.0/1.0 1.0 1.0
+s shader.vert shader.frag
+s collider.vert collider.frag
+
+m ahsoka 0.0 0.0 0.0/0.0 0.0 0.0/1.0 1.0 1.0 0
+co sphere 0.0 0.0 0.0/1.0 1.0 1.0
+s shader.vert shader.frag
+s collider.vert collider.frag
+
+c 0.175 0.474 2.5/0.0 0.0/60.0 0.01 10.0/0.002 1.0
+ld 1
+0 5
+1 1
+2 0
+
+
+#box constructor
+#centre
+#extensions - vec3 width, height, depth

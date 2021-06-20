@@ -1,0 +1,13 @@
+# obj
+*.obj
+
+# merge originals
+*.orig
+
+# builds
+x64/
+
+# directories
+.vs/
+[Ll]ogs/
+[Aa]ssets/

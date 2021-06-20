@@ -1,0 +1,421 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\application.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\time.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\glad.c">
+      <Filter>third-party\glad</Filter>
+    </ClCompile>
+    <ClCompile Include="header\imgui\imgui.cpp">
+      <Filter>third-party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="header\imgui\imgui_demo.cpp">
+      <Filter>third-party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="header\imgui\imgui_draw.cpp">
+      <Filter>third-party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="header\imgui\imgui_impl_glfw.cpp">
+      <Filter>third-party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="header\imgui\imgui_impl_opengl3.cpp">
+      <Filter>third-party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="header\imgui\imgui_widgets.cpp">
+      <Filter>third-party\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\maths\box.cpp">
+      <Filter>src\core\maths\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lowrenderer\camera.cpp">
+      <Filter>src\lowrenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\assertion.cpp">
+      <Filter>src\core\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\maths\capsule.cpp">
+      <Filter>src\core\maths\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\collision\collision.cpp">
+      <Filter>src\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\maths\cylinder.cpp">
+      <Filter>src\core\maths\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\entity.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\enemy.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\graph.cpp">
+      <Filter>src\core\datastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\gameobject.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\log.cpp">
+      <Filter>src\core\debug</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\maths\maths.cpp">
+      <Filter>src\core\maths</Filter>
+    </ClCompile>
+    <ClCompile Include="src\resources\mesh.cpp">
+      <Filter>src\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lowrenderer\model.cpp">
+      <Filter>src\lowrenderer</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\maths\plane.cpp">
+      <Filter>src\core\maths\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\platform.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\maths\primitives.cpp">
+      <Filter>src\core\maths\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="src\resources\scene.cpp">
+      <Filter>src\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\resources\shader.cpp">
+      <Filter>src\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\resources\texture.cpp">
+      <Filter>src\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\resources\resourcesmanager.cpp">
+      <Filter>src\resources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\transform.cpp">
+      <Filter>src\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\physics\rigidbody.cpp">
+      <Filter>src\physics</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\player.cpp">
+      <Filter>src\game</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\maths\quad.cpp">
+      <Filter>src\core\maths\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\maths\roundedbox.cpp">
+      <Filter>src\core\maths\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\maths\segment.cpp">
+      <Filter>src\core\maths\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\maths\sphere.cpp">
+      <Filter>src\core\maths\primitives</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\maths\referential3.cpp">
+      <Filter>src\core\maths</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lowrenderer\light.cpp">
+      <Filter>src\lowrenderer\lights</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lowrenderer\directionallight.cpp">
+      <Filter>src\lowrenderer\lights</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lowrenderer\pointlight.cpp">
+      <Filter>src\lowrenderer\lights</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lowrenderer\spotlight.cpp">
+      <Filter>src\lowrenderer\lights</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\core\debug\memleaks.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\time.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="header\date\date.h">
+      <Filter>third-party\date</Filter>
+    </ClInclude>
+    <ClInclude Include="header\glad\glad.h">
+      <Filter>third-party\glad</Filter>
+    </ClInclude>
+    <ClInclude Include="header\imgui\imgui.h">
+      <Filter>third-party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="header\imgui\imgui_impl_glfw.h">
+      <Filter>third-party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="header\imgui\imgui_impl_opengl3.h">
+      <Filter>third-party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="header\imgui\imgui_internal.h">
+      <Filter>third-party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="header\STB_IMAGE\stb_image.h">
+      <Filter>third-party\STB</Filter>
+    </ClInclude>
+    <ClInclude Include="header\KHR\khrplatform.h">
+      <Filter>third-party\KHR</Filter>
+    </ClInclude>
+    <ClInclude Include="header\imgui\imconfig.h">
+      <Filter>third-party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="header\imgui\imstb_rectpack.h">
+      <Filter>third-party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="header\imgui\imstb_textedit.h">
+      <Filter>third-party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="header\imgui\imstb_truetype.h">
+      <Filter>third-party\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="header\GLFW\glfw3.h">
+      <Filter>third-party\glfw</Filter>
+    </ClInclude>
+    <ClInclude Include="header\GLFW\glfw3native.h">
+      <Filter>third-party\glfw</Filter>
+    </ClInclude>
+    <ClInclude Include="include\application.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lowrenderer\camera.hpp">
+      <Filter>include\lowrenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\physics\collision\collision.hpp">
+      <Filter>include\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\game\enemy.hpp">
+      <Filter>include\game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\game\entity.hpp">
+      <Filter>include\game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\game\gameobject.hpp">
+      <Filter>include\game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\core.hpp">
+      <Filter>include\core</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lowrenderer\model.hpp">
+      <Filter>include\lowrenderer</Filter>
+    </ClInclude>
+    <ClInclude Include="include\game\platform.hpp">
+      <Filter>include\game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\game\player.hpp">
+      <Filter>include\game</Filter>
+    </ClInclude>
+    <ClInclude Include="include\resources\resourcesmanager.hpp">
+      <Filter>include\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\resources\mesh.hpp">
+      <Filter>include\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\resources\scene.hpp">
+      <Filter>include\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\resources\shader.hpp">
+      <Filter>include\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\resources\texture.hpp">
+      <Filter>include\resources</Filter>
+    </ClInclude>
+    <ClInclude Include="include\physics\transform.hpp">
+      <Filter>include\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\physics\rigidbody.hpp">
+      <Filter>include\physics</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\debug\assertion.hpp">
+      <Filter>include\core\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\debug\log.hpp">
+      <Filter>include\core\debug</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\datastructure\graph.hpp">
+      <Filter>include\core\datastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\maths\capsule.hpp">
+      <Filter>include\core\maths\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\maths\box.hpp">
+      <Filter>include\core\maths\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\maths\cylinder.hpp">
+      <Filter>include\core\maths\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\maths\plane.hpp">
+      <Filter>include\core\maths\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\maths\primitives.hpp">
+      <Filter>include\core\maths\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\maths\quad.hpp">
+      <Filter>include\core\maths\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\maths\roundedbox.hpp">
+      <Filter>include\core\maths\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\maths\segment.hpp">
+      <Filter>include\core\maths\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\maths\sphere.hpp">
+      <Filter>include\core\maths\primitives</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\maths\maths.hpp">
+      <Filter>include\core\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\core\maths\referential3.hpp">
+      <Filter>include\core\maths</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lowrenderer\light.hpp">
+      <Filter>include\lowrenderer\lights</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lowrenderer\directionallight.hpp">
+      <Filter>include\lowrenderer\lights</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lowrenderer\pointlight.hpp">
+      <Filter>include\lowrenderer\lights</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lowrenderer\spotlight.hpp">
+      <Filter>include\lowrenderer\lights</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Bin\scenes\example.scn">
+      <Filter>bin\scenes</Filter>
+    </None>
+    <None Include="Bin\scenes\level_0.scn">
+      <Filter>bin\scenes</Filter>
+    </None>
+    <None Include="Bin\scenes\space.scn">
+      <Filter>bin\scenes</Filter>
+    </None>
+    <None Include="Bin\scenes\stormtrooper.scn">
+      <Filter>bin\scenes</Filter>
+    </None>
+    <None Include="Bin\scenes\landing_vehicle.scn">
+      <Filter>bin\scenes</Filter>
+    </None>
+    <None Include="Bin\shaders\collider.frag">
+      <Filter>bin\shaders</Filter>
+    </None>
+    <None Include="Bin\shaders\collider.vert">
+      <Filter>bin\shaders</Filter>
+    </None>
+    <None Include="Bin\shaders\shader.frag">
+      <Filter>bin\shaders</Filter>
+    </None>
+    <None Include="Bin\shaders\shader.vert">
+      <Filter>bin\shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Bin\scenes\scene_list.txt">
+      <Filter>bin\scenes</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="third-party">
+      <UniqueIdentifier>{e2726bb2-96bc-4dcc-9afb-aea389bb5ac5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{16da82e0-1c88-4592-bd4a-4d1a5a79cac3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{0078c152-c7b8-42bb-a9b5-acff79a904c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third-party\glad">
+      <UniqueIdentifier>{dad99c4f-2ce0-4d1f-baec-137d6427c5c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third-party\imgui">
+      <UniqueIdentifier>{c1f8b9d0-d559-445c-ba94-81e6171add98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third-party\date">
+      <UniqueIdentifier>{532733fd-7dfa-476a-98b0-0c204bd75411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third-party\STB">
+      <UniqueIdentifier>{a62c797f-0f40-4dcb-9225-5bdc9452803d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third-party\KHR">
+      <UniqueIdentifier>{ef1606a3-ace3-4bdf-8826-00b3aae7fe29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="third-party\glfw">
+      <UniqueIdentifier>{d62b8982-5867-4470-8ba0-77bb1b384ae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core">
+      <UniqueIdentifier>{9d5b476a-d229-4a6d-b3ee-d02426e81323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\debug">
+      <UniqueIdentifier>{3b79a885-3143-42c5-ba98-09daeff68fd1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\datastructure">
+      <UniqueIdentifier>{65542ba7-7d07-4e05-ad30-c1010697dbd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lowrenderer">
+      <UniqueIdentifier>{b245cd44-8d0a-4691-804e-1e11fef1161c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\resources">
+      <UniqueIdentifier>{ec79fa8a-b4d9-4cac-99ab-4b905304b2f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\game">
+      <UniqueIdentifier>{0390dde9-63cd-4077-81e3-f76210818f59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\physics">
+      <UniqueIdentifier>{6cb17161-3411-42ba-b844-7a3894ec55d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\maths">
+      <UniqueIdentifier>{8ebe3fe2-e662-4c6f-ae30-26a71ece0fb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\core\maths\primitives">
+      <UniqueIdentifier>{e04641ec-a133-425f-9482-5bf368bb6bb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\core">
+      <UniqueIdentifier>{b9109801-c030-4a0e-8d58-9db48e8979d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\lowrenderer">
+      <UniqueIdentifier>{b6b25cb3-2ac4-4d2a-a976-2a3d77531f5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\resources">
+      <UniqueIdentifier>{11a5a6ab-bd38-40fc-8115-f22052be57a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\game">
+      <UniqueIdentifier>{fa3857c7-975e-4ac7-8243-1112be209d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\physics">
+      <UniqueIdentifier>{cd44fe94-7518-4a8a-8267-7b931251e024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\core\debug">
+      <UniqueIdentifier>{e463a874-2285-411c-85d8-130fc548b9ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\core\datastructure">
+      <UniqueIdentifier>{84c6c0e8-d7f9-468c-9ec1-834e86012081}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\core\maths">
+      <UniqueIdentifier>{89c164b7-a64c-486e-bfef-69cbee21b3da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\core\maths\primitives">
+      <UniqueIdentifier>{567825a8-a7c9-4e99-b21a-30461f3ea6ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bin">
+      <UniqueIdentifier>{0b095357-6803-4409-aa66-80d59c79c00f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bin\shaders">
+      <UniqueIdentifier>{21f07493-68ca-4203-af6d-5bf4b1c0fe07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bin\scenes">
+      <UniqueIdentifier>{a4922e4f-e3ec-44a6-b1b8-31bf40d9ceaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\lowrenderer\lights">
+      <UniqueIdentifier>{1d6d0826-4ae0-429d-acc5-fec61604ae61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\lowrenderer\lights">
+      <UniqueIdentifier>{d154f97a-af2e-4c85-8b39-b071b7b73467}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
